@@ -1,8 +1,8 @@
-# Agente-de-IA-
+ Agente-de-IA-
 
-A **Sofia** é um agente inteligente de operações desenvolvido em Python com **Streamlit**, projetado especificamente para atuar como assistente técnica integrada aos ecossistemas de provedores de internet (ISP). 
+A Sofia é um agente inteligente de operações desenvolvido em Python com Streamlit, projetado especificamente para atuar como assistente técnica integrada aos ecossistemas de provedores de internet (ISP). 
 
-O sistema utiliza uma arquitetura robusta de **RAG (Geração Aumentada por Recuperação)** para mitigar alucinações e garantir precisão cirúrgica na entrega de credenciais de acesso e procedimentos internos.
+O sistema utiliza uma arquitetura robusta de RAG (Geração Aumentada por Recuperação) para mitigar alucinações e garantir precisão cirúrgica na entrega de credenciais de acesso e procedimentos internos.
 
 > Funcionalidades Principais
 
@@ -12,7 +12,7 @@ O sistema utiliza uma arquitetura robusta de **RAG (Geração Aumentada por Recu
 > Integração com IXC Provider : Dashboard integrado na barra lateral exibindo métricas operacionais cruciais, como a contagem de Ordens de Serviço (O.S.) ativas em tempo real.
 >Interface UI Customizada: Visual escuro e sofisticado de alta fidelidade construído sobre o ecossistema Streamlit através de injeção CSS nativa.
 
-## 🛠️ Tecnologias Utilizadas
+Para quem tem curiosidade das tecnologias utilizadas:
 
 > Python 3.10
 > Streamlit (Interface e Layout)
