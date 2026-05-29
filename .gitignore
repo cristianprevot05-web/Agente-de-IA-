@@ -1,24 +1,28 @@
-# Nestjs specific
-/dist
-/node_modules
-/build
-/tmp
+# === Segurança e Credenciais ===
+# Ignorar arquivos de dados locais (Cérebro JSON)
+cerebro_netflex.json
 
-# Logs
-logs
-*.log
-npm-debug.log*
-pnpm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
+# Ignorar arquivos de imagem e mídias locais (Logos e uploads técnicos)
+*.jpeg
+*.jpg
+*.png
+*.webp
 
-# dotenv environment variable files
-.env
-.env.development
-.env.test
-.env.production
+# === Arquivos de Configuração do Streamlit ===
+.streamlit/
 
-# temp directory
-.temp
-.tmp
+# === Cache e Ambientes Virtuais (Python) ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# === Arquivos de Sistema ===
+.DS_Store
+Thumbs.db
